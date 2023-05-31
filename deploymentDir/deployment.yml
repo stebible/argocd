@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: stebible/hello #to access path to the app use /webapp
+        image: stebible/hello:1 #to access path to the app use /webapp
         ports:
         - containerPort: 8080
 ---
